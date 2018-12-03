@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": [
+    "2018-vue"
+  ],
+  "scripts": {},
+  "devDependencies": {}
+}
