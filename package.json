@@ -1,8 +1,10 @@
 {
   "private": true,
   "workspaces": [
-    "2018-vue"
+    "2048-vue"
   ],
   "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "vuepress": "^0.14.4"
+  }
 }
