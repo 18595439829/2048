@@ -1,0 +1,49 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "git.autofetch": true,
+    "emmet.includeLanguages": {
+        "vue-html": "html"
+    },
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-aligned"
+        },
+        "prettier": {
+            "semi" : false,
+            "singleQuote": true
+        }
+    },
+    "prettier": {
+        "semi" : false,
+        "singleQuote": true
+    },
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "git.autofetch": true,
+    "emmet.triggerExpansionOnTab": true,
+    "stylusSupremacy.insertColons": false,
+    "stylusSupremacy.insertSemicolons": false,
+    "stylusSupremacy.insertBraces": false, 
+    "editor.tabSize": 2,
+    "files.eol": "\r\n",
+    "vetur.validation.template": false,
+    "sync.gist": "8df9016184971a6551f5f08876502860",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastUpload": "2018-08-26T08:05:11.426Z",
+    "sync.lastDownload": "",
+    "sync.forceDownload": false,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 0,
+    "workbench.editor.highlightModifiedTabs": true,
+    "dart.flutterSdkPath": "/Users/qingjin/SDK/flutter"
+}

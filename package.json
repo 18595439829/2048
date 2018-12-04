@@ -4,7 +4,5 @@
     "2048-vue"
   ],
   "scripts": {},
-  "devDependencies": {
-    "vuepress": "^0.14.4"
-  }
+  "devDependencies": {}
 }
