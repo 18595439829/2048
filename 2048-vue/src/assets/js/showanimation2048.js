@@ -6,7 +6,10 @@ export default {
     //实现随机数字的样式变动
 
     let numberCell = $('#number-cell-' + i + '-' + j)
-    numberCell.css('background-color', support.getNumberBackgroundColor(randNumber))
+    numberCell.css(
+      'background-color',
+      support.getNumberBackgroundColor(randNumber)
+    )
     numberCell.css('color', support.getNumberColor(randNumber))
     numberCell.text(randNumber)
 
@@ -20,14 +23,17 @@ export default {
       50
     )
   },
-
   showMoveAnimation(fromx, fromy, tox, toy) {
     //实现移动格子的样式变动
-
+    console.log('实现移动格子的样式变动', fromx, fromy, tox, toy)
     let numberCell = $('#number-cell-' + fromx + '-' + fromy)
     numberCell.animate(
-      { top: support.getPosTop(tox, toy), left: support.getPosLeft(tox, toy) },
-      200
+      {
+        top: support.getPosTop(tox, toy),
+        left: support.getPosLeft(tox, toy)
+      },
+      2000
     )
+    console.log('移动格子的样式变动', numberCell)
   }
 }

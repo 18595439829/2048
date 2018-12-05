@@ -64,7 +64,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style>
 @import '../assets/css/index.css';
 </style>
 
